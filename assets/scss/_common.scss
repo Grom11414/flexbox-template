@@ -47,9 +47,25 @@ a
     text-decoration: none;
 
     color: $color-light;
+
     &:hover,
     &:focus
     {
         color: $color-accent;
+    }
+}
+
+p
+{
+    color: $color-gray;
+}
+
+.container
+{
+    display: flex;
+
+    @include lg
+    {
+        flex-wrap: wrap;
     }
 }
